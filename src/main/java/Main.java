@@ -65,7 +65,7 @@ public class Main {
                         break;
 
                     case 4:
-                        System.out.println("\nCerrando el sistema de distribución logística nacional. ¡Hasta pronto!");
+                        System.out.println("\nCerrando el sistema");
                         break;
 
                     default:
@@ -74,7 +74,7 @@ public class Main {
             } while (opcion != 4);
 
         } catch (IOException e) {
-            System.out.println("\nError crítico: No se pudo leer el archivo 'guategrafo.txt'. Verifique su ubicación.");
+            System.out.println("\nError: No se pudo leer el archivo 'guategrafo.txt'.");
         } finally {
             sn.close();
         }
